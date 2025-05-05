@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de formulario </title>
+<style>
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: white;
+  max-width: 600px;
+  height: 300px;
+  text-align: center;
+    border: solid 5px black;
+    margin: auto;
+   border-radius: 5px;
+   box-shadow: 1px 2px 5px black;
+    position: relative;
+    
+}
+section{
+    
+  text-align: center;
+    padding: 25px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+
+input{
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+
+
+label{
+    margin-right: 10px;
+}
+
+
+</style>
+
+</head>
+<body>
+
+   <main>
+       <section>
+           <h1>Faça aqui seu login</h1>
+           <form
+           action="../ex001/teste.php" method="get">
+           <br>
+           <label for="usuario"> Usuário</label>
+           <input type="text" name="usuario" id="idusuario" placeholder="Digite seu usuário aqui">
+           <br>
+           <label for="email">Email</label>
+           <input type="email" name="email" id="idemail" placeholder="Digite seu email aqui">
+           <br>
+           <label for="senha">Senha</label>
+           <input type="password" name="senha" id="idsenha" placeholder="Digite sua senha aqui">
+           <br>
+           <input type="submit" value="Enviar">
+           
+           
+           
+           
+           </form>
+       </section>
+   </main>
+    
+ 
+
+
+</body>
+</html>
